@@ -1,13 +1,13 @@
 # Ejercicio 2: Analizar el siguiente código señalando declaraciones y aplicaciones de reglas, y su efecto.
 
 ```css
-p #normal {
+p#normal {
   font-family: arial,helvetica;
   font-size: 11px;
   font-weight: bold;
 }
 
-* #destacado {
+*#destacado {
   border-style: solid;
   border-color: blue;
   border-width: 2px;
@@ -31,14 +31,14 @@ p #normal {
 Analizando parte por parte:
 
 ```css
-p #normal {
+p#normal {
     font-family: arial, helvetica;
     font-size: 11px;
     font-weight: bold;
 }
 ```
 
-Este código CSS se aplica a la siguiente etiqueta `<p>` con `id="normal"`:
+Este código CSS se aplica a cualquier etiqueta `<p>` con `id="normal"`. En este caso, se aplica a:
 
 ```html
 <p id="normal">Este es un párrafo</p>
@@ -52,7 +52,7 @@ El CSS modifica:
 <br><br>
 
 ```css
-* #destacado {
+*#destacado {
     border-style: solid;
     border-color: blue;
     border-width: 2px;
