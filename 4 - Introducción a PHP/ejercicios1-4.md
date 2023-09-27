@@ -124,3 +124,21 @@ else {
   Lo que realiza este codigo es lo siguiente. Si el boton de enviar no se acciono muestra un campo de un formulario a completar (en el cual se debe introducir la edad).
 
   Una vez enviado el formulario se determina si el valor ingresado es mayor o igual que 21, y de ser asi muestra que es "Mayor de edad", en caso contrario se muestra que es "Menor de edad".
+
+---
+
+# Ejercicio 4: explicar salida
+
+## La primer salida es:
+*El*
+Como el primer metodo echo se encuentra antes de la sentencia:
+```php
+include 'datos.php';
+```
+La cual importa el codigo que se encuentra en datos.php, las variables flor y color no estan definidas por ende no tienen un valor asignado (estan vacias).
+
+
+## La segunda salida es:
+*El clavel blanco*
+
+Como el segundo metodo echo se encuentra despues de la importacion del codigo de datos.php las variables tienen asignado un valor.
