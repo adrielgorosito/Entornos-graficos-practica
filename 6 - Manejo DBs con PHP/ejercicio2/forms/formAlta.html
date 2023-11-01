@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ej 2 - Practica 6 | Form Alta</title>
+</head>
+<body>
+  <form action="../scripts/alta.php" method="POST" name="FormAlta">
+    <table>
+      <tr>
+        <td>Ciudad:</td>
+        <td><input type="text" name="ciudad"></td>
+      </tr>
+      <tr>
+        <td>Pais:</td>
+        <td><input type="text" name="pais"></td>
+      </tr>
+      <tr>
+        <td>Habitantes:</td>
+        <td><input type="number" name="hab"></td>
+      </tr>
+      <tr>
+        <td>Superficie:</td>
+        <td><input type="number" name="sup"></td>
+      </tr>
+      <tr>
+        <td>Tiene Metro?:</td>
+        <td><input type="checkbox" name="metro"></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" name="Submit" value="Agregar">
+          <p><a href="../index.html">Volver al menu principal</a></p>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
+
